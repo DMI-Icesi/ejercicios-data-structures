@@ -1,4 +1,4 @@
-# Primer quiz - Diseñando con Algoritmos 2021-2
+# Segundo quiz - Diseñando con Algoritmos 2021-2
 
 ## Reglas:
 - Solamente pueden tener abierta la referencia de MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
@@ -9,43 +9,34 @@
 ## Preguntas
 En el archivo index.ts, usted encontrará un array de tipo TridimensionalPoint, a partir de este archivo, usted deberá:
 
-### 1. Agregar un punto con coordenadas 5, 3, 0 al inicio del array
+### 1. Filtrar la lista de puntos para que no haya elementos repetidos
 
-### 2. Agregar un punto con coordenadas 8, 8, 8, en la posicion 4
+### 2. Agregar un nuevo punto tridimensional con coordenadas 8, 3, 4
 
-### 3. Eliminar los primeros 2 elementos del array
+### 3. Eliminar el punto con coordenadas 10, 1, 2
 
-### 4. Eliminar los ultimos 3 elementos del array
+### 4. Consultar si existe un punto con coordenadas 5, 5, 5
 
-### 5. Ordenar variables por el eje Z descendentemente
+### 5. Eliminar el punto con coordenadas 10, 1, 2
 
-### 6. Eliminar el punto con coordenadas 10, 1, 2
+### 6. Ordenar los puntos por su posicion en Z de manera ascendente
 
-### 7. `largoPuntos`
-Guardar en esta variable el largo actual del arreglo de puntos
+### 7. Cada uno de estos puntos representa un lugar en un mapa virtual, el cual tiene una cantidad de personas. Represente esto a través de una estructura de datos:
 
-### 8. `posicionXPuntoDos`
-Guardar en esta variable la posicion X del punto que se encuentra en el índice 2 del array
+- Punto en x: 8, y: 0, z: 8: 20 personas
+- Punto en x: 3, y: 4, z: 8: 10 personas
+- Punto en x: 5, y: 3, z: 10: 15 personas
+- Punto en x: 7, y: 7, z: 1: 80 personas
+- Punto en x: 8, y: 9, z: 8: 54 personas
+- Punto en x: 10, y: 1, z: 2: 28 personas
+- Punto en x: 9, y: 2, z: 3: 88 personas
+- Punto en x: 3, y: 4, z: 5: 120 personas
+- Punto en x: 5, y: 5, z: 5: 5 personas
 
-### 9. `indiceYCero`
-Guardar en esta variable la posicion del primer punto que se encuentra en `y = 0`
+### 8. Mostrarme la cantidad de personas en el punto 7, 7, 1
 
-### 10. `todosLosPuntos`
-Guardar en esta variable el array actual, junto con `puntosNuevos`
+### 9. Se acaban de ir 56 personas en el punto 3, 4, 5. Actualizar tu estructura de datos para reflejar esto
 
-### 11. `puntosEn2Dimensiones`
-Guardar en esta variable los objetos convertidos de la clase TridimensionalPoint a la clase BidimensionalPoint
+### 10. Se acaba de cerrar al público el punto 8, 9, 8, representar esto en tu estructura de datos
 
-### 12. `yMayorOIgualA5`
-Guardar en esta variable los puntos en dos dimensiones cuyo valor en `y` sea mayor o igual a 5
-
-### 13. `menosElPrimeroYElUltimo`
-Guardar en esta variable los puntos del array `yMayorOIgualA5` menos el primero y el último
-
-### 14.
-Iterar a través del arreglo `menosElPrimeroYElUltimo`, llamar al método `imprimirPosiciones()`
-
-### 15.
-Reversar el arreglo `menosElPrimeroYElUltimo` 
-
-**Nota importante:** Si no sabe una respuesta, para no contestarla, hacer algo como `menosElPrimeroYElUltimo` = `yMayorOIgualA5`
+### 11. Ordenar los puntos por cantidad de personas, descendentemente

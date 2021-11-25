@@ -11,13 +11,18 @@ const punto345 = new TridimensionalPoint(3, 4, 5);
 
 const puntosEn3Dimensiones: TridimensionalPoint[] = [
   punto348,
+  punto923,
   punto5310,
   punto771,
+  punto923,
   punto890,
   punto1012,
   punto808,
-  punto923,
   punto345,
+  punto808,
+  punto345,
+  punto1012,
+  punto890,
 ];
 
 // 1
@@ -33,34 +38,11 @@ const puntosEn3Dimensiones: TridimensionalPoint[] = [
 // 6
 
 // 7
-const largoPuntos = undefined;
 
 // 8
-const posicionXPuntoDos = undefined;
 
 // 9
-const indiceZCero = undefined;
 
 // 10
-const puntosNuevos: TridimensionalPoint[] = [
-  new TridimensionalPoint(5, 9, 7),
-  new TridimensionalPoint(1, 7, 8),
-  new TridimensionalPoint(2, 4, 8),
-  new TridimensionalPoint(8, 6, 6),
-  new TridimensionalPoint(7, 8, 1),
-];
-
-const todosLosPuntos = undefined;
 
 // 11
-const puntosEn2Dimensiones = undefined;
-
-// 12
-const yMayorOIgualA5 = undefined;
-
-// 13
-const menosElPrimeroYElUltimo = undefined;
-
-// 14
-
-// 15
